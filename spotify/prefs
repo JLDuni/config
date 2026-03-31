@@ -1,0 +1,15 @@
+autologin.username="jldmaster"
+autologin.saved_credentials="{\"jldmaster\":[\"jldmaster\",\"31V2dMVdCymtsmHHMh8MBCAQswp+AFnWGKackS7Gp2gxr1x6X46ZBpHLAQrH8k+v5xnn5089Q6dmIPUV+tnXUHiVmU08kgNXhOiJGqQUsOSn/bGQuoLbMZjzuzygC7XBp8Fw6mADWtnLKwAAVJXGnsBAIMuq3qqiUX2wsAM9BhtAAqKf33foaInIZcEtnZJcYXZEZyXAi/Rsy94phElIIQG7O9xl+hxNzfQIy+HNIDj/Caq1UnfrMDP3z3gSsJ2P\"]}"
+autologin.canonical_username="jldmaster"
+app.window.state.saved=true
+app.window.position.width=1876
+app.rollback-to-sc=true
+autologin.blob="31V2dMVdCymtsmHHMh8MBCAQswp+AFnWGKackS7Gp2gxr1x6X46ZBpHLAQrH8k+v5xnn5089Q6dmIPUV+tnXUHiVmU08kgNXhOiJGqQUsOSn/bGQuoLbMZjzuzygC7XBp8Fw6mADWtnLKwAAVJXGnsBAIMuq3qqiUX2wsAM9BhtAAqKf33foaInIZcEtnZJcYXZEZyXAi/Rsy94phElIIQG7O9xl+hxNzfQIy+HNIDj/Caq1UnfrMDP3z3gSsJ2P"
+es.send-on-startup=true
+core.clock_delta=0
+app.window.position.saved=true
+app.window.position.height=1001
+app.window.position.y=57
+storage.last-location="/home/jld/.cache/spotify/Storage"
+app.window.position.x=22
+app.last-launched-version="1.2.63.394.g126b0d89"

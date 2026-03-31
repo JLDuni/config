@@ -1,0 +1,278 @@
+2025-11-16 15:15:06 WARNING config.py:250 No configuration file could be found or read
+2025-11-16 15:15:06 INFO server.py:234 GNS3 server version 3.0.5
+2025-11-16 15:15:06 INFO server.py:236 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-11-16 15:15:06 WARNING server.py:247 Compute authentication is enabled with username 'gns3' and a randomly generated password. Please set a password in the config file if this compute is to be used by an external controller
+2025-11-16 15:15:06 INFO server.py:257 Running with Python 3.13.7 and has PID 3469
+2025-11-16 15:15:06 INFO server.py:87 Current locale is en_US.UTF-8
+2025-11-16 15:15:06 INFO server.py:275 Using system certificate store for SSL connections
+2025-11-16 15:15:07 INFO server.py:288 Starting server on 0.0.0.0:3080
+2025-11-16 15:15:09 INFO server.py:84 Started server process [3469]
+2025-11-16 15:15:09 INFO on.py:48 Waiting for application startup.
+2025-11-16 15:15:09 INFO migration.py:207 Context impl SQLiteImpl.
+2025-11-16 15:15:09 INFO migration.py:210 Will assume non-transactional DDL.
+2025-11-16 15:15:09 INFO tasks.py:88 Current database revision is None
+2025-11-16 15:15:09 INFO migration.py:207 Context impl SQLiteImpl.
+2025-11-16 15:15:09 INFO migration.py:210 Will assume non-transactional DDL.
+2025-11-16 15:15:09 INFO migration.py:618 Running stamp_revision  -> 9a5292aa4389
+2025-11-16 15:15:09 INFO __init__.py:71 Loading controller vars file "/home/jld/.config/GNS3/3.0/gns3_controller.vars"
+2025-11-16 15:15:09 INFO __init__.py:75 Controller is starting
+2025-11-16 15:15:09 INFO __init__.py:355 Installing base configs in '/home/jld/GNS3/configs'
+2025-11-16 15:15:09 INFO __init__.py:382 Installing custom symbols in '/home/jld/GNS3/symbols'
+2025-11-16 15:15:09 INFO __init__.py:369 Installing built-in disks in '/home/jld/GNS3/images/QEMU'
+2025-11-16 15:15:09 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-11-16 15:15:09 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-11-16 15:15:09 INFO __init__.py:286 Built-in appliances are installed in '/home/jld/.local/share/GNS3/appliances'
+2025-11-16 15:15:09 INFO compute.py:74 Create compute local
+2025-11-16 15:15:09 INFO on.py:62 Application startup complete.
+2025-11-16 15:15:09 INFO server.py:216 Uvicorn running on http://0.0.0.0:3080 (Press CTRL+C to quit)
+2025-11-16 15:15:10 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:10 INFO compute.py:375 Connecting to compute 'local'
+2025-11-16 15:15:10 INFO websockets_impl.py:273 127.0.0.1:40790 - "WebSocket /v3/compute/notifications/ws" [accepted]
+2025-11-16 15:15:10 INFO notifications.py:43 New client 127.0.0.1:40790 has connected to compute WebSocket
+2025-11-16 15:15:10 INFO server.py:643 connection open
+2025-11-16 15:15:10 INFO compute.py:447 Connected to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-11-16 15:15:13 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:13 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:13 INFO websockets_impl.py:273 127.0.0.1:40308 - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2MzM5MjUxMH0.14s8cpOZFcNqKnJ1vflI0xTnRIdpDwV_Y6fPaWEc6EE" [accepted]
+2025-11-16 15:15:13 INFO project.py:78 Project a0218ebb-e184-45f8-9e1e-9eb8ef39df6d with path '/home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d' created
+2025-11-16 15:15:13 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:13 INFO server.py:643 connection open
+2025-11-16 15:15:13 INFO controller.py:214 New client 127.0.0.1:40308 has connected to controller WebSocket
+2025-11-16 15:15:13 INFO base_node.py:323 VPCS: PC1 [b2083e67-2f19-4584-98e9-7fe4de5f901e] created
+2025-11-16 15:15:13 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:60487 with working directory /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips
+2025-11-16 15:15:13 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '127.0.0.1:60487', '--console-binding-addr', '0.0.0.0']
+2025-11-16 15:15:13 INFO hypervisor.py:125 Dynamips process logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/dynamips_i1_stdout.txt
+2025-11-16 15:15:13 INFO hypervisor.py:130 Dynamips process started PID=3504
+2025-11-16 15:15:13 INFO __init__.py:338 Hypervisor 127.0.0.1:60487 has successfully started
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:60487 after 0.0109 seconds
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-11-16 15:15:13 INFO router.py:244 Router c2691 "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86] has been created
+2025-11-16 15:15:13 INFO router.py:564 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: RAM updated from 128MB to 192MB
+2025-11-16 15:15:13 INFO router.py:592 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: NVRAM updated from 112KB to 256KB
+2025-11-16 15:15:13 INFO router.py:535 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: has a new IOS image set: "/home/jld/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image"
+2025-11-16 15:15:13 INFO router.py:712 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: idle-PC set to 0x60bcf9f8
+2025-11-16 15:15:13 INFO router.py:939 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: disk0 updated from 16MB to 0MB
+2025-11-16 15:15:13 INFO router.py:990 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: auto delete disks enabled
+2025-11-16 15:15:13 INFO router.py:1093 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: MAC address updated from c001.0db0.0000 to c001.1f56.0000
+2025-11-16 15:15:13 INFO router.py:1181 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: adapter NM-1FE-TX inserted into slot 1
+2025-11-16 15:15:13 INFO router.py:1294 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: WIC-1T inserted into WIC slot 0
+2025-11-16 15:15:13 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:43651 with working directory /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips
+2025-11-16 15:15:13 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i2_log.txt', '-H', '127.0.0.1:43651', '--console-binding-addr', '0.0.0.0']
+2025-11-16 15:15:13 INFO hypervisor.py:125 Dynamips process logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/dynamips_i2_stdout.txt
+2025-11-16 15:15:13 INFO hypervisor.py:130 Dynamips process started PID=3532
+2025-11-16 15:15:13 INFO __init__.py:338 Hypervisor 127.0.0.1:43651 has successfully started
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:43651 after 0.0106 seconds
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-11-16 15:15:13 INFO router.py:244 Router c2691 "R2" [7532ec9f-5784-4573-a85c-5ea88681916f] has been created
+2025-11-16 15:15:13 INFO router.py:564 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: RAM updated from 128MB to 192MB
+2025-11-16 15:15:13 INFO router.py:592 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: NVRAM updated from 112KB to 256KB
+2025-11-16 15:15:13 INFO router.py:535 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: has a new IOS image set: "/home/jld/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image"
+2025-11-16 15:15:13 INFO router.py:712 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: idle-PC set to 0x60bcf9f8
+2025-11-16 15:15:13 INFO router.py:939 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: disk0 updated from 16MB to 0MB
+2025-11-16 15:15:13 INFO router.py:990 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: auto delete disks enabled
+2025-11-16 15:15:13 INFO router.py:1093 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: MAC address updated from c002.0dcc.0000 to c002.1f78.0000
+2025-11-16 15:15:13 INFO router.py:1181 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: adapter NM-1FE-TX inserted into slot 1
+2025-11-16 15:15:13 INFO router.py:1294 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: WIC-1T inserted into WIC slot 0
+2025-11-16 15:15:13 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:42329 with working directory /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips
+2025-11-16 15:15:13 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i3_log.txt', '-H', '127.0.0.1:42329', '--console-binding-addr', '0.0.0.0']
+2025-11-16 15:15:13 INFO hypervisor.py:125 Dynamips process logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/dynamips_i3_stdout.txt
+2025-11-16 15:15:13 INFO hypervisor.py:130 Dynamips process started PID=3560
+2025-11-16 15:15:13 INFO __init__.py:338 Hypervisor 127.0.0.1:42329 has successfully started
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:42329 after 0.0107 seconds
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-11-16 15:15:13 INFO router.py:244 Router c2691 "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7] has been created
+2025-11-16 15:15:13 INFO router.py:564 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: RAM updated from 128MB to 192MB
+2025-11-16 15:15:13 INFO router.py:592 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: NVRAM updated from 112KB to 256KB
+2025-11-16 15:15:13 INFO router.py:535 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: has a new IOS image set: "/home/jld/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image"
+2025-11-16 15:15:13 INFO router.py:712 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: idle-PC set to 0x60bcf9f8
+2025-11-16 15:15:13 INFO router.py:939 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: disk0 updated from 16MB to 0MB
+2025-11-16 15:15:13 INFO router.py:990 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: auto delete disks enabled
+2025-11-16 15:15:13 INFO router.py:1093 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: MAC address updated from c003.0de8.0000 to c003.1fae.0000
+2025-11-16 15:15:13 INFO router.py:1181 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: adapter NM-1FE-TX inserted into slot 1
+2025-11-16 15:15:13 INFO router.py:1294 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: WIC-1T inserted into WIC slot 0
+2025-11-16 15:15:13 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:38909 with working directory /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips
+2025-11-16 15:15:13 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i4_log.txt', '-H', '127.0.0.1:38909', '--console-binding-addr', '0.0.0.0']
+2025-11-16 15:15:13 INFO hypervisor.py:125 Dynamips process logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/dynamips_i4_stdout.txt
+2025-11-16 15:15:13 INFO hypervisor.py:130 Dynamips process started PID=3588
+2025-11-16 15:15:13 INFO __init__.py:338 Hypervisor 127.0.0.1:38909 has successfully started
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:38909 after 0.0109 seconds
+2025-11-16 15:15:13 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-11-16 15:15:13 INFO router.py:244 Router c2691 "R4" [bb9be766-8646-4a25-8444-566b34dd86bf] has been created
+2025-11-16 15:15:13 INFO router.py:564 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: RAM updated from 128MB to 192MB
+2025-11-16 15:15:13 INFO router.py:592 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: NVRAM updated from 112KB to 256KB
+2025-11-16 15:15:13 INFO router.py:535 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: has a new IOS image set: "/home/jld/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image"
+2025-11-16 15:15:13 INFO router.py:712 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: idle-PC set to 0x60bcf9f8
+2025-11-16 15:15:13 INFO router.py:939 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: disk0 updated from 16MB to 0MB
+2025-11-16 15:15:13 INFO router.py:990 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: auto delete disks enabled
+2025-11-16 15:15:13 INFO router.py:1093 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: MAC address updated from c004.0e04.0000 to c004.1fcd.0000
+2025-11-16 15:15:13 INFO router.py:1181 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: adapter NM-1FE-TX inserted into slot 1
+2025-11-16 15:15:13 INFO router.py:1294 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: WIC-1T inserted into WIC slot 0
+2025-11-16 15:15:13 INFO base_node.py:323 VPCS: PC2 [0623be4d-76de-43ad-ac4c-c702e6b4e0ee] created
+2025-11-16 15:15:13 INFO base_node.py:323 VPCS: PC3 [80b7b04f-ea63-42d4-885d-5016ee1d6e77] created
+2025-11-16 15:15:13 INFO vpcs_vm.py:393 VPCS "PC1" [b2083e67-2f19-4584-98e9-7fe4de5f901e]: NIO UDP added to port 0
+2025-11-16 15:15:13 INFO nio_udp.py:76 NIO UDP udp-d5dbe734-b496-4ab0-943e-ea9df58dc76f created with lport=10001, rhost=127.0.0.1, rport=10000
+2025-11-16 15:15:13 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34919
+2025-11-16 15:15:13 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:34919']
+2025-11-16 15:15:13 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/603e3add-3ca4-490a-b7d0-5b6dc12f5c86/ubridge.log
+2025-11-16 15:15:13 INFO hypervisor.py:171 ubridge started PID=3604
+2025-11-16 15:15:13 INFO base_node.py:788 Hypervisor 0.0.0.0:34919 has successfully started
+2025-11-16 15:15:13 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34919 after 0.1016 seconds
+2025-11-16 15:15:13 INFO router.py:1404 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: NIO udp-d5dbe734-b496-4ab0-943e-ea9df58dc76f bound to port 0/0
+2025-11-16 15:15:13 INFO nio_udp.py:76 NIO UDP udp-a80e9b78-bea7-4f43-ab95-2733fd50c2ce created with lport=10004, rhost=127.0.0.1, rport=10005
+2025-11-16 15:15:13 INFO router.py:1404 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: NIO udp-a80e9b78-bea7-4f43-ab95-2733fd50c2ce bound to port 0/1
+2025-11-16 15:15:13 INFO nio_udp.py:76 NIO UDP udp-157d006b-f5c6-4faf-bf75-3ced1da739f7 created with lport=10005, rhost=127.0.0.1, rport=10004
+2025-11-16 15:15:13 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:40313
+2025-11-16 15:15:13 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:40313']
+2025-11-16 15:15:13 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/7532ec9f-5784-4573-a85c-5ea88681916f/ubridge.log
+2025-11-16 15:15:13 INFO hypervisor.py:171 ubridge started PID=3611
+2025-11-16 15:15:13 INFO base_node.py:788 Hypervisor 0.0.0.0:40313 has successfully started
+2025-11-16 15:15:13 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:40313 after 0.1017 seconds
+2025-11-16 15:15:14 INFO router.py:1404 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: NIO udp-157d006b-f5c6-4faf-bf75-3ced1da739f7 bound to port 0/0
+2025-11-16 15:15:14 INFO nio_udp.py:76 NIO UDP udp-0fb485ff-fa25-448d-9fee-7ae4d42214af created with lport=10010, rhost=127.0.0.1, rport=10011
+2025-11-16 15:15:14 INFO router.py:1404 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: NIO udp-0fb485ff-fa25-448d-9fee-7ae4d42214af bound to port 0/1
+2025-11-16 15:15:14 INFO nio_udp.py:76 NIO UDP udp-2f253a12-6e79-4950-8af1-bb338241c928 created with lport=10011, rhost=127.0.0.1, rport=10010
+2025-11-16 15:15:14 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:37423
+2025-11-16 15:15:14 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:37423']
+2025-11-16 15:15:14 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/02475ba5-124f-415a-844d-d5e6b6be09b7/ubridge.log
+2025-11-16 15:15:14 INFO hypervisor.py:171 ubridge started PID=3618
+2025-11-16 15:15:14 INFO base_node.py:788 Hypervisor 0.0.0.0:37423 has successfully started
+2025-11-16 15:15:14 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:37423 after 0.1019 seconds
+2025-11-16 15:15:14 INFO router.py:1404 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: NIO udp-2f253a12-6e79-4950-8af1-bb338241c928 bound to port 0/0
+2025-11-16 15:15:14 INFO nio_udp.py:76 NIO UDP udp-e62db980-0f09-4cc7-bce2-b98ada37039f created with lport=10016, rhost=127.0.0.1, rport=10017
+2025-11-16 15:15:14 INFO router.py:1404 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: NIO udp-e62db980-0f09-4cc7-bce2-b98ada37039f bound to port 0/1
+2025-11-16 15:15:14 INFO vpcs_vm.py:393 VPCS "PC2" [0623be4d-76de-43ad-ac4c-c702e6b4e0ee]: NIO UDP added to port 0
+2025-11-16 15:15:14 INFO nio_udp.py:76 NIO UDP udp-35b4e0a1-5444-4710-8092-de823fe3678b created with lport=10020, rhost=127.0.0.1, rport=10021
+2025-11-16 15:15:14 INFO router.py:1404 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: NIO udp-35b4e0a1-5444-4710-8092-de823fe3678b bound to port 1/0
+2025-11-16 15:15:14 INFO nio_udp.py:76 NIO UDP udp-0e3db6d1-5acd-4e37-bef1-cbaefd2998ad created with lport=10021, rhost=127.0.0.1, rport=10020
+2025-11-16 15:15:14 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:35069
+2025-11-16 15:15:14 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:35069']
+2025-11-16 15:15:14 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/bb9be766-8646-4a25-8444-566b34dd86bf/ubridge.log
+2025-11-16 15:15:14 INFO hypervisor.py:171 ubridge started PID=3627
+2025-11-16 15:15:14 INFO base_node.py:788 Hypervisor 0.0.0.0:35069 has successfully started
+2025-11-16 15:15:14 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:35069 after 0.1015 seconds
+2025-11-16 15:15:14 INFO router.py:1404 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: NIO udp-0e3db6d1-5acd-4e37-bef1-cbaefd2998ad bound to port 0/0
+2025-11-16 15:15:14 INFO nio_udp.py:76 NIO UDP udp-eeb6b4c3-e915-437a-a2cb-890f5be57b5f created with lport=10026, rhost=127.0.0.1, rport=10027
+2025-11-16 15:15:14 INFO router.py:1404 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: NIO udp-eeb6b4c3-e915-437a-a2cb-890f5be57b5f bound to port 0/1
+2025-11-16 15:15:14 INFO vpcs_vm.py:393 VPCS "PC3" [80b7b04f-ea63-42d4-885d-5016ee1d6e77]: NIO UDP added to port 0
+2025-11-16 15:15:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:14 INFO websockets_impl.py:273 127.0.0.1:40560 - "WebSocket /v3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2MzM5MjUxMH0.14s8cpOZFcNqKnJ1vflI0xTnRIdpDwV_Y6fPaWEc6EE" [accepted]
+2025-11-16 15:15:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:14 INFO server.py:643 connection open
+2025-11-16 15:15:14 INFO projects.py:297 New client has connected to the notification stream for project ID 'a0218ebb-e184-45f8-9e1e-9eb8ef39df6d' (WebSocket method)
+2025-11-16 15:15:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:14 INFO images.py:163 Discovering images in '/home/jld/GNS3/images/QEMU'
+2025-11-16 15:15:14 INFO images.py:163 Discovering images in '/home/jld/GNS3/images/IOS'
+2025-11-16 15:15:14 INFO images.py:163 Discovering images in '/home/jld/GNS3/images/IOU'
+2025-11-16 15:15:14 INFO tasks.py:231 Monitoring for new images in '/home/jld/GNS3/images'
+2025-11-16 15:15:17 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-11-16 15:15:17 INFO router.py:127 Creating a new ghost IOS instance
+2025-11-16 15:15:17 INFO base_node.py:942 VPCS: 'PC1' [b2083e67-2f19-4584-98e9-7fe4de5f901e]:local UDP tunnel created between port 10030 and 10031
+2025-11-16 15:15:17 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5001', '-m', '0', '-i', '1', '-F', '-R', '-s', '10030', '-c', '10031', '-t', '127.0.0.1', 'startup.vpc']
+2025-11-16 15:15:17 INFO vpcs_vm.py:232 Logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/vpcs/b2083e67-2f19-4584-98e9-7fe4de5f901e/vpcs.log
+2025-11-16 15:15:17 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:33895
+2025-11-16 15:15:17 INFO router.py:535 Router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b]: has a new IOS image set: "/home/jld/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image"
+2025-11-16 15:15:17 INFO router.py:882 Router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b]: ghost status set to 1
+2025-11-16 15:15:17 INFO router.py:839 Router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b]: ghost file set to "/home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/c2691-adventerprisek9-mz.124-15.T14.image-192.ghost"
+2025-11-16 15:15:17 INFO router.py:564 Router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b]: RAM updated from 128MB to 192MB
+2025-11-16 15:15:17 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:33895']
+2025-11-16 15:15:17 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/vpcs/b2083e67-2f19-4584-98e9-7fe4de5f901e/ubridge.log
+2025-11-16 15:15:17 INFO hypervisor.py:171 ubridge started PID=3649
+2025-11-16 15:15:17 INFO base_node.py:788 Hypervisor 0.0.0.0:33895 has successfully started
+2025-11-16 15:15:17 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:33895 after 0.1020 seconds
+2025-11-16 15:15:17 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5001, external port = 5000)
+2025-11-16 15:15:17 INFO vpcs_vm.py:249 VPCS instance PC1 started PID=3643
+2025-11-16 15:15:18 INFO router.py:325 router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b] has been started
+2025-11-16 15:15:18 INFO router.py:360 Router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b] has been stopped
+2025-11-16 15:15:18 INFO router.py:1790 Router "Ghost" [e2b8eb2c-34a6-4c14-99c3-f47c39bbc11b] has been deleted (including associated files)
+2025-11-16 15:15:18 INFO router.py:882 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: ghost status set to 2
+2025-11-16 15:15:18 INFO router.py:839 Router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f]: ghost file set to "/home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/c2691-adventerprisek9-mz.124-15.T14.image-192.ghost"
+2025-11-16 15:15:18 INFO router.py:882 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: ghost status set to 2
+2025-11-16 15:15:18 INFO router.py:839 Router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: ghost file set to "/home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/c2691-adventerprisek9-mz.124-15.T14.image-192.ghost"
+2025-11-16 15:15:18 INFO router.py:882 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: ghost status set to 2
+2025-11-16 15:15:18 INFO router.py:839 Router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7]: ghost file set to "/home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/c2691-adventerprisek9-mz.124-15.T14.image-192.ghost"
+2025-11-16 15:15:18 INFO router.py:325 router "R1" [603e3add-3ca4-490a-b7d0-5b6dc12f5c86] has been started
+2025-11-16 15:15:18 INFO router.py:882 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: ghost status set to 2
+2025-11-16 15:15:18 INFO router.py:839 Router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf]: ghost file set to "/home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/c2691-adventerprisek9-mz.124-15.T14.image-192.ghost"
+2025-11-16 15:15:18 INFO router.py:325 router "R3" [02475ba5-124f-415a-844d-d5e6b6be09b7] has been started
+2025-11-16 15:15:18 INFO router.py:325 router "R2" [7532ec9f-5784-4573-a85c-5ea88681916f] has been started
+2025-11-16 15:15:18 INFO base_node.py:942 VPCS: 'PC2' [0623be4d-76de-43ad-ac4c-c702e6b4e0ee]:local UDP tunnel created between port 10032 and 10033
+2025-11-16 15:15:18 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5007', '-m', '1', '-i', '1', '-F', '-R', '-s', '10032', '-c', '10033', '-t', '127.0.0.1', 'startup.vpc']
+2025-11-16 15:15:18 INFO vpcs_vm.py:232 Logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/vpcs/0623be4d-76de-43ad-ac4c-c702e6b4e0ee/vpcs.log
+2025-11-16 15:15:18 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34793
+2025-11-16 15:15:18 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:34793']
+2025-11-16 15:15:18 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/vpcs/0623be4d-76de-43ad-ac4c-c702e6b4e0ee/ubridge.log
+2025-11-16 15:15:18 INFO hypervisor.py:171 ubridge started PID=3674
+2025-11-16 15:15:18 INFO base_node.py:788 Hypervisor 0.0.0.0:34793 has successfully started
+2025-11-16 15:15:18 INFO base_node.py:942 VPCS: 'PC3' [80b7b04f-ea63-42d4-885d-5016ee1d6e77]:local UDP tunnel created between port 10034 and 10035
+2025-11-16 15:15:18 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5009', '-m', '2', '-i', '1', '-F', '-R', '-s', '10034', '-c', '10035', '-t', '127.0.0.1', 'startup.vpc']
+2025-11-16 15:15:18 INFO vpcs_vm.py:232 Logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/vpcs/80b7b04f-ea63-42d4-885d-5016ee1d6e77/vpcs.log
+2025-11-16 15:15:18 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:39673
+2025-11-16 15:15:18 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:39673']
+2025-11-16 15:15:18 INFO hypervisor.py:165 logging to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/vpcs/80b7b04f-ea63-42d4-885d-5016ee1d6e77/ubridge.log
+2025-11-16 15:15:18 INFO hypervisor.py:171 ubridge started PID=3682
+2025-11-16 15:15:18 INFO base_node.py:788 Hypervisor 0.0.0.0:39673 has successfully started
+2025-11-16 15:15:18 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34793 after 0.1023 seconds
+2025-11-16 15:15:18 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:39673 after 0.1015 seconds
+2025-11-16 15:15:19 INFO router.py:325 router "R4" [bb9be766-8646-4a25-8444-566b34dd86bf] has been started
+2025-11-16 15:15:19 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5007, external port = 5006)
+2025-11-16 15:15:19 INFO vpcs_vm.py:249 VPCS instance PC2 started PID=3668
+2025-11-16 15:15:19 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5009, external port = 5008)
+2025-11-16 15:15:19 INFO vpcs_vm.py:249 VPCS instance PC3 started PID=3676
+2025-11-16 15:15:48 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/603e3add-3ca4-490a-b7d0-5b6dc12f5c86/configs/i1_startup-config.cfg
+2025-11-16 15:15:48 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/603e3add-3ca4-490a-b7d0-5b6dc12f5c86/configs/i1_startup-config.cfg
+2025-11-16 15:15:48 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/02475ba5-124f-415a-844d-d5e6b6be09b7/configs/i3_startup-config.cfg
+2025-11-16 15:15:48 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/02475ba5-124f-415a-844d-d5e6b6be09b7/configs/i3_startup-config.cfg
+2025-11-16 15:15:48 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/7532ec9f-5784-4573-a85c-5ea88681916f/configs/i2_startup-config.cfg
+2025-11-16 15:15:48 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/7532ec9f-5784-4573-a85c-5ea88681916f/configs/i2_startup-config.cfg
+2025-11-16 15:15:49 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/bb9be766-8646-4a25-8444-566b34dd86bf/configs/i4_startup-config.cfg
+2025-11-16 15:15:49 INFO router.py:1751 saving startup-config to /home/jld/GNS3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/project-files/dynamips/bb9be766-8646-4a25-8444-566b34dd86bf/configs/i4_startup-config.cfg
+2025-11-16 16:44:18 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-11-16 16:44:18 INFO __init__.py:197 Controller is reloading
+2025-11-16 16:44:18 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-11-16 16:44:18 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-11-16 16:44:18 INFO __init__.py:286 Built-in appliances are installed in '/home/jld/.local/share/GNS3/appliances'
+2025-11-16 16:44:18 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-11-16 16:44:18 INFO server.py:264 Shutting down
+2025-11-16 16:44:18 INFO __init__.py:197 Controller is reloading
+2025-11-16 16:44:18 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-11-16 16:44:18 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-11-16 16:44:18 INFO __init__.py:286 Built-in appliances are installed in '/home/jld/.local/share/GNS3/appliances'
+2025-11-16 16:44:18 INFO server.py:264 connection closed
+2025-11-16 16:44:18 INFO server.py:264 connection closed
+2025-11-16 16:44:18 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-11-16 16:44:18 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-11-16 16:44:18 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-11-16 16:44:18 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-11-16 16:44:18 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-11-16 16:44:18 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-11-16 16:44:18 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-11-16 16:44:18 INFO compute.py:479 Connection closed to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-11-16 16:44:18 INFO server.py:264 connection closed
+2025-11-16 16:44:18 INFO notifications.py:50 Client 127.0.0.1:40790 has disconnected from compute WebSocket
+2025-11-16 16:44:18 INFO controller.py:221 Client 127.0.0.1:40308 has disconnected from controller WebSocket
+2025-11-16 16:44:18 INFO server.py:306 Waiting for background tasks to complete. (CTRL+C to force quit)
+2025-11-16 16:44:19 INFO tasks.py:238 Stopping monitoring for new images in '/home/jld/GNS3/images'
+2025-11-16 16:44:20 INFO projects.py:304 Client has disconnected from notification stream for project ID 'a0218ebb-e184-45f8-9e1e-9eb8ef39df6d' (WebSocket method)
+2025-11-16 16:44:25 INFO projects.py:313 Project 'a0218ebb-e184-45f8-9e1e-9eb8ef39df6d' is automatically closing due to no client listening
+2025-11-16 16:44:25 INFO on.py:67 Waiting for application shutdown.
+2025-11-16 16:44:25 INFO __init__.py:181 Controller is stopping
+2025-11-16 16:44:25 INFO base_node.py:370 VPCS: 'PC1' [b2083e67-2f19-4584-98e9-7fe4de5f901e]: is closing
+2025-11-16 16:44:25 INFO base_node.py:370 VPCS: 'PC2' [0623be4d-76de-43ad-ac4c-c702e6b4e0ee]: is closing
+2025-11-16 16:44:25 INFO base_node.py:370 VPCS: 'PC3' [80b7b04f-ea63-42d4-885d-5016ee1d6e77]: is closing
+2025-11-16 16:44:25 INFO base_node.py:370 Dynamips: 'R1' [603e3add-3ca4-490a-b7d0-5b6dc12f5c86]: is closing
+2025-11-16 16:44:25 INFO base_node.py:370 Dynamips: 'R2' [7532ec9f-5784-4573-a85c-5ea88681916f]: is closing
+2025-11-16 16:44:25 INFO base_node.py:370 Dynamips: 'R3' [02475ba5-124f-415a-844d-d5e6b6be09b7]: is closing
+2025-11-16 16:44:25 INFO base_node.py:370 Dynamips: 'R4' [bb9be766-8646-4a25-8444-566b34dd86bf]: is closing
+2025-11-16 16:44:26 WARNING router.py:428 Could not stop and delete R1: No data returned from 127.0.0.1:60487, Dynamips process running: False
+2025-11-16 16:44:26 WARNING router.py:428 Could not stop and delete R2: No data returned from 127.0.0.1:43651, Dynamips process running: False
+2025-11-16 16:44:26 WARNING router.py:428 Could not stop and delete R3: No data returned from 127.0.0.1:42329, Dynamips process running: False
+2025-11-16 16:44:26 WARNING router.py:428 Could not stop and delete R4: No data returned from 127.0.0.1:38909, Dynamips process running: False
+2025-11-16 16:44:26 INFO tasks.py:106 Disconnected from database
+2025-11-16 16:44:26 INFO on.py:76 Application shutdown complete.
+2025-11-16 16:44:26 INFO server.py:94 Finished server process [3469]

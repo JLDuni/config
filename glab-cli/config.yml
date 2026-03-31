@@ -1,0 +1,39 @@
+# What protocol to use when performing Git operations. Supported values: ssh, https.
+git_protocol: ssh
+# What editor glab should run when creating issues, merge requests, etc. This global config cannot be overridden by hostname.
+editor:
+# What browser glab should run when opening links. This global config cannot be overridden by hostname.
+browser:
+# Set your desired Markdown renderer style. Available options are [dark, light, notty]. To set a custom style, refer to https://github.com/charmbracelet/glamour#styles
+glamour_style: dark
+# Allow glab to automatically check for updates and notify you when there are new updates.
+check_update: true
+# Last update check timestamp, used for checking when the last update check was performed.
+last_update_check_timestamp: 2025-11-11T11:46:48Z
+# Whether or not to display hyperlink escape characters when listing items like issues or merge requests. Set to TRUE to display hyperlinks in TTYs only. Force hyperlinks by setting FORCE_HYPERLINKS=1 as an environment variable.
+display_hyperlinks: false
+# Default GitLab hostname to use.
+host: gitlab.com
+# Set to true (1) to disable prompts, or false (0) to enable them.
+no_prompt: false
+# Set to false (0) to disable sending usage data to your GitLab instance or true (1) to enable.
+# See https://docs.gitlab.com/administration/settings/usage_statistics/
+# for more information
+telemetry: true
+# Configuration specific for GitLab instances.
+hosts:
+    gitlab.com:
+        # What protocol to use to access the API endpoint. Supported values: http, https.
+        api_protocol: https
+        # Configure host for API endpoint. Defaults to the host itself.
+        api_host: gitlab.com
+        # Your GitLab access token. To get one, read https://docs.gitlab.com/user/profile/personal_access_tokens/
+        token: f31664ad8fb5f1e70ed56ed0850ed65bdb565e86a63842a699fc74ccc8f48fee
+        # The domains of associated container registries. These are used to configure the
+        # Docker credential helper.
+        container_registry_domains: gitlab.com
+        is_oauth2: "true"
+        oauth2_refresh_token: 4de80ab97521681d2801523f29576d6685b246eddd6dd35bca94849974a1f353
+        oauth2_expiry_date: 11 Nov 25 23:37 WET
+        git_protocol: https
+        user: jlduni1

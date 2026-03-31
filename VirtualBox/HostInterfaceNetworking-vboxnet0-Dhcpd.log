@@ -1,0 +1,23 @@
+00:00:00.001957 VirtualBox DHCP Server 7.2.6 r172322 linux.amd64 (Jan 28 2026 17:11:43) release log
+00:00:00.001958 Log opened 2026-03-17T13:40:10.093613000Z
+00:00:00.001958 Build Type: release
+00:00:00.001961 OS Product: Linux
+00:00:00.001962 OS Release: 6.19.8-arch1-1
+00:00:00.001962 OS Version: #1 SMP PREEMPT_DYNAMIC Sat, 14 Mar 2026 01:07:43 +0000
+00:00:00.001991 DMI Product Name: 82JU
+00:00:00.002002 DMI Product Version: Legion 5 15ACH6H
+00:00:00.002009 Firmware type: UEFI
+00:00:00.002492 Secure Boot: Disabled
+00:00:00.002569 Host RAM: 15837MB (15.4GB) total, 13603MB (13.2GB) available
+00:00:00.002573 Executable: /usr/lib/virtualbox/VBoxNetDHCP
+00:00:00.002573 Process ID: 4825
+00:00:00.002574 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002635 --config:  HostInterfaceNetworking-vboxnet0
+00:00:00.002638 --comment: HostInterfaceNetworking-vboxnet0
+00:00:00.002793 IP address:   192.168.56.100/24
+00:00:00.002799 Address pool: 192.168.56.101 - 192.168.56.254
+00:00:00.002822 MAC address is not specified: will use generated MAC 08:00:27:d5:4a:70
+00:00:00.002829 Db::i_enterFixedAddressAssignment: 08:00:27:d5:4a:70: 192.168.56.100
+00:00:00.002838 loading leases from /home/jld/.config/VirtualBox/HostInterfaceNetworking-vboxnet0-Dhcpd.leases
+00:00:00.003202 Runtime error opening '/home/jld/.config/VirtualBox/HostInterfaceNetworking-vboxnet0-Dhcpd.leases' for reading VERR_FILE_NOT_FOUND (File not found.)
+00:00:00.003243 SUP: Opened VMMR0.r0 (/usr/lib/virtualbox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX.

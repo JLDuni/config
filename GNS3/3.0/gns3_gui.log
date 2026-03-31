@@ -1,0 +1,7 @@
+2025-11-16 15:15:05 INFO logger.py:126 Log level: INFO
+2025-11-16 15:15:05 INFO main.py:270 GNS3 GUI version 3.0.5
+2025-11-16 15:15:05 INFO main.py:271 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-11-16 15:15:05 INFO main.py:272 Application started with /usr/bin/gns3
+2025-11-16 15:15:10 INFO http_client.py:561 Authenticated with controller localhost on port 3080 
+2025-11-16 15:15:13 INFO controller.py:456 Listening for controller notifications on ws://localhost:3080/v3/notifications/ws
+2025-11-16 15:15:14 INFO project.py:666 Listening for project notifications on ws://localhost:3080/v3/projects/a0218ebb-e184-45f8-9e1e-9eb8ef39df6d/notifications/ws
